@@ -2,19 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Photo Uploader Demo</title>
+    <title>Aquascape Demo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Upload Your Photo</h1>
-        <form id="uploadForm">
+
+    <header class="topbar">
+        <div class="logo">
+            <img src="aquascape-logo.png" alt="Aquascape Logo">
+        </div>
+        <nav class="navbar">
+            <a href="#">Backyard Ideas</a>
+            <a href="#">Hire a Pond Pro</a>
+            <a href="#">Find Retailers</a>
+            <a href="#">Our Publications</a>
+            <a href="#">Support</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <img src="banner.jpg" alt="Banner Image">
+        <h1>Aquascape Publications</h1>
+    </section>
+
+    <section class="content">
+        <p>
+            Aquascape has been creating pond supplies and designing, installing, and maintaining water features since 1991.
+            We share our passion and knowledge in a variety of publications to inspire your water gardening journey.
+            All publications are free for you to enjoy so you can dream about your personal paradise and enjoy Living the Aquascape Lifestyle®!
+        </p>
+    </section>
+
+    <section class="upload-section">
+        <h2>Upload Your Backyard Image</h2>
+        <input type="password" id="accessCode" placeholder="Enter access code">
+        <button id="unlockButton">Unlock</button>
+
+        <form id="uploadForm" style="display:none;">
             <input type="file" id="photoInput" accept="image/*" required>
             <button type="submit">Submit</button>
         </form>
+
         <div id="output"></div>
-    </div>
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>
-
