@@ -49,6 +49,19 @@ This is intended as a creative concept tool for landscape designers, homeowners,
   - Gunicorn
   - systemd on Ubuntu Linux
 
+**General Prompt**
+- Analyze the uploaded backyard image and output a detailed description for a proposed Aquascape landscape design, written in the style and layout of a hand-drawn site sketch plan.
+Specifically provide:
+  - 1. Zone Breakdown — Identify key areas (e.g., open lawn, shaded edges, patios, planting beds, walkways, structures).
+  - 2. Environmental Features — Note sunlight, slope, grade, drainage, and existing materials (stone, wood, grass, fences).
+  - 3. Recommended Aquascape Feature(s) — Choose from: koi pond, pondless waterfall, stacked slate fountain, basalt columns, fire + water bowls, mini container pond, or rainwater harvesting system — and explain why it fits the space.
+- Describe how the edited image should visually change using the look and language of a landscape concept sketch. Include:
+The rough layout: where on the site the feature is placed (e.g., upper left corner near the shade line, centered in the patio, along the rear edge slope)
+  - Visual elements: textures, materials, boulders, water, planting blocks, pathways, drawn as soft colored areas or textures (green for grass, blue for water, gray for stone, etc.)
+  - Annotation style: include short, sketched-style labels or markers (e.g., “New Pond Edge,” “Berm + Planting 24”,” “Stacked Slate Fountain Here”)
+  - Perspective: maintain the samePerspective, plan-view sketch format (not photorealistic) with clear zone shapes and labeled features
+- The output should describe the modification so it can be directly used to prompt an another GPT chat image editing.
+
 ---
 
 ## Easier Alternatives
